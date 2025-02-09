@@ -14,13 +14,6 @@
 
 
 }
-@media screen and (max-width: 900px) {
-    .section__pic-container {
-        width: 100%;  
-        max-width: 300px; 
-        margin: 0 auto; 
-    }
-}
 
 
 
