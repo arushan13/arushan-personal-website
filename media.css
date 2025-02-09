@@ -152,7 +152,10 @@ footer nav{
 
 }
 
-@media screen and (min-width:1200px) and (max-width:1400px){
+@media (min-width: 1200px) and (max-width: 1400px) {
+    /* Your styles for screens between 1200px and 1400px */
+
+
 
 .about-containers{
         flex-wrap:wrap;
