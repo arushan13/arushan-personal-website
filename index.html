@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><img src="./images/Screenshot_2025-01-23_204058-removebg-preview.png" class="logopicture"></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><img src="./images/Screenshot_2025-01-23_204058-removebg-preview.png" class="logopicture1"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./images/f9267ed82-modified.png" alt="Arushan Arulraj Profile Picture" class="pfp">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Arushan Arulraj</h1>
+            <p class="section__text__p2"><span class="text sec-text"></span></p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./images/Arushan_Arulraj__Resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-containers">
+                <img src="./images/linkedin-app-white-icon.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/arushan-arulraj/'">
+                <img src="./images/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/arushan13'">
+            </div>
+        </div>
+        
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="about">
+        <p class ="section__text__p1">Get to Know More</p>
+        <h1 class ="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./images/IMG_4511.jpg" alt="Profile picture" class="about-pic">
+                <img src="./images/IMG_5869.jpeg" alt="Profile picture" class="about-pic">
+                <img src="./images/IMG_7300 (2).jpg" alt="Profile picture" class="about-pic">
+                <img src="./images/IMG_5872.jpeg" alt="Profile picture" class="about-pic">
+                <img src="./images/unnamed (2) (1).jpg" alt="Profile picture" class="about-pic">
+                <img src="./images/unnamed (3) (1).jpg" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./images/258-2587984_clipart-download-magnifying-glass-clipart-transparent-magnifying-glass.png" alt="experience icon" class="icon">
+                        <h3><u>Summary</u></h3>
+                        <p class="abouttext">Current Term: <strong>1B</strong><br>Seeking Internships For: <strong>Fall 2025</strong><br> Courses: <strong>Discrete Math, Linear Circuits, Digital Circuits, Calculus II</strong></p>
+                    </div>
+                    <div class ="details-container">
+                        <img src="./images/360_F_510584583_GP4UxCEzGCUULmyi5argC6cJGxeG9T5u-removebg-preview.png" alt="education icon" class="icon">
+                        <h3><u>Education</u></h3>
+                        <p class="abouttext"><br>BASc in Computer Engineering @ University of Waterloo<br>Expected Graduation: <strong>2029</strong></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Welcome to my personal portfolio! My name is Arushan Arulraj, and I am currently studying Computer Engineering at the University of Waterloo. I have a big passion for data science, AI, & project management and am always looking for opportunities to learn and expand my knowledge. As an aspiring engineer, I’m motivated to design creative solutions to everyday problems—whether they’re challenges I face personally or ones that affect others.
+
+In my free time, I enjoy watching sports like hockey (Go Leafs Go!), American football, and Formula 1. I also love listening to music and spending time with my friends, whether we’re exploring new places, playing games, or just relaxing. 
+
+I’m always looking to meet people and connect, so feel free to reach out!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./images/[CITYPNG.COM]White Double Arrow To Down Icon HD PNG - 2000x2000.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id ="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/1733364213978.jpg" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Engineering Intern <br> @ i2R North America</h2>
+                    <p class="date">Jan 2025 - Present</p>
+                    <p class="date">Brampton, Ontario</p><br>
+                    <p class="project-desc"><ul><li class="points">Winter 2025 Co-op - Data Analytics & Project Management</li></ul></p><br>
+                    
+                </div>
+
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/formulaelectric.jpg" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Firmware Developer <br>@ UW Formula Electric</h2>
+                    <p class="date">Sept 2024 - Dec 2024</p>
+                    <p class="date">Waterloo, Ontario</p><br>
+                    <p class="project-desc"><ul><li class="points">Wrote code for STM Microcontrollers in C</li></ul></p><br>
+                    
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/28QEAEV8GKW2G5ZXLWRK5ZX222DBRTZKR7HLQZT3-66b3f7f3.jpg" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">AI Software Developer <br>@ Outlier</h2>
+                    <p class="date">Dec 2024 - Present</p>
+                    <p class="date">Remote</p><br>
+                    <p class="project-desc"><ul><li class="points">Debugged and rewrote Python code generated by LLMs for 5+ clients, identifying logical and syntax errors to ensure functionality and efficiency.</li>
+                    <li class="points">Analyzed LLM-generated responses to identify inaccuracies and refined prompts to improve AI output accuracy by 90%.</li>
+                    </ul></p><br>
+                    
+                </div>
+                
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/technician-repair-computer-hardware-with-screwdriver-vector.jpg" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Computer Technician <br> @ Canta Drafting Services</h2>
+                    <p class="date">Jun 2023 - Dec 2023</p>
+                    <p class="date">Scarborough, Ontario</p><br>
+                    <p class="project-desc">
+                        <ul><li class="points">Streamlined the onboarding time for all employees by 5-10 days by assisting in the setup and configuration of office
+                            computer and network systems</li>
+                            <li class="points">Diagnosed and resolved hardware reliability issues and software errors, reducing error messages by 80%
+                            </li>
+                                <li class="points">Enhanced system stability by making permanent fixes to issues like freezing computers and applications not
+                                    opening</li>
+                            
+                        </ul>
+                    </p><br>
+                    
+                </div>
+                
+                
+
+                </div>
+                
+                <div class="logos">
+                    <h2 class="skills-text">Skills</h2>
+                    <div class="logos-slide">
+                        <img src="images/skills/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn-removebg-preview.png">
+                        <img src="images/skills/ISO_C++_Logo.svg.png">
+                        <img src="images/skills/html5-emblem-orange-shield-and-white-text-vector-removebg-preview.png">
+                        <img src="images/skills/css3-emblem-blue-shield-and-white-text-vector-removebg-preview.png">
+                        <img src="images/skills/js-emblem-orange-shield-and-white-text-vector-removebg-preview.png">
+                        <img src="images/skills/azure-sql-database6354-removebg-preview.png">
+                        <img src="images/skills/C_Programming_Language.svg.png">
+                        <img src="images/skills/autocad-logo-69326D7728-seeklogo.com.png">
+                        <img src="images/skills/Jupyter_logo.svg.png">
+                        <img src="images/skills/Microsoft_Office_Excel_(2019–present).svg.png">
+                        <img src="images/skills/Microsoft_365_(2022).svg.png">
+                        <img src="images/skills/Visual_Studio_Code_1.35_icon.svg.png">
+                        <img src="images/skills/Adobe-Photoshop-Logo.png">
+                        <img src="images/skills/Adobe_Premiere_Pro_CC_icon.svg.png">
+                        <img src="images/skills/Adobe_Illustrator_CC_icon.svg.png">
+                        <img src="images/skills/thumbnail-removebg-preview.png">
+                    </div>
+                      
+                    <div class="logos-slide">
+                        <img src="images/skills/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn-removebg-preview.png">
+                        <img src="images/skills/ISO_C++_Logo.svg.png">
+                        <img src="images/skills/html5-emblem-orange-shield-and-white-text-vector-removebg-preview.png">
+                        <img src="images/skills/css3-emblem-blue-shield-and-white-text-vector-removebg-preview.png">
+                        <img src="images/skills/js-emblem-orange-shield-and-white-text-vector-removebg-preview.png">
+                        <img src="images/skills/azure-sql-database6354-removebg-preview.png">
+                        <img src="images/skills/C_Programming_Language.svg.png">
+                        <img src="images/skills/autocad-logo-69326D7728-seeklogo.com.png">
+                        <img src="images/skills/Jupyter_logo.svg.png">
+                        <img src="images/skills/Microsoft_Office_Excel_(2019–present).svg.png">
+                        <img src="images/skills/Microsoft_365_(2022).svg.png">
+                        <img src="images/skills/Visual_Studio_Code_1.35_icon.svg.png">
+                        <img src="images/skills/Adobe-Photoshop-Logo.png">
+                        <img src="images/skills/Adobe_Premiere_Pro_CC_icon.svg.png">
+                        <img src="images/skills/Adobe_Illustrator_CC_icon.svg.png">
+                        <img src="images/skills/thumbnail-removebg-preview.png">
+                    </div>
+                
+
+        </div>
+        <img src="./images/[CITYPNG.COM]White Double Arrow To Down Icon HD PNG - 2000x2000.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/Screenshot 2025-02-03 192047 (1).png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">ASCII Super Mario Game</h2>
+                <p class="project-desc"></p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arushan13/TextSuperMarioGame'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://youtu.be/cnWsKzALLWA'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/Screenshot 2025-02-03 190351.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Banking System</h2>
+                <p class="project-desc"></p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arushan13/BankingManagementSystem'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.youtube.com/watch?v=aXN9r93YtMQ'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/1723152452494 (3) (2).jpg" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Automated Arduino Fridge</h2>
+                <p class="project-desc"></p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arushan13/ArduinoAutomatedFridge'">GitHub</button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/IMG_2554 (2).jpg" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Arduino Color Memory Game</h2>
+                <p class="project-desc"></p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arushan13/ArduinoColorMemoryGame'">GitHub</button>
+                    
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/Eu1ySqgXEAADoVh.jpg" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Crash Detection Device</h2>
+                <p class="project-desc"></p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arushan13/ece198code'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                </div>
+                
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./images/Screenshot 2025-02-08 170622.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Personal Website</h2>
+                <p class="project-desc"></p><br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/arushan13/arushan-personal-website'">GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+        <img src="./images/[CITYPNG.COM]White Double Arrow To Down Icon HD PNG - 2000x2000.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="cup">
+            <div class="cic">
+                <img src="./images/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:a4arulra@uwaterloo.ca">a4arulra@uwaterloo.ca</a></p>
+            </div>
+            <div class="Contact-info-upper-container">
+                <div class="cics">
+                    <img src="./images/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
+                    <p><a href="https://www.linkedin.com/in/arushan-arulraj/" target="_blank">Linkedin</a></p>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p> Made with 💜 & 💤 breaks. <br>&#169; 2025 Arushan Arulraj</br></p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
