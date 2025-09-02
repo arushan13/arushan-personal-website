@@ -235,7 +235,7 @@ section{
 }
 
 .text.sec-text::before{
-    content:"I'm A 1st-Year @ UWaterloo";
+    content:"I'm A 2nd Year @ UWaterloo";
     animation: words 30s infinite;
     
 }
@@ -267,19 +267,19 @@ section{
 
 @keyframes words{
     0%, 20%{
-        content:"I'm A 1st-Year @ UWaterloo";
+        content:"I'm A 2nd Year @ UWaterloo";
     }
     21%, 40%{
-        content:"I'm An Aspiring Engineer";
+        content:" I'm An Aspiring Engineer";
     }
     41%, 60%{
-        content:"I'm A Sports Aficionado";
+        content:" I'm A Sports Aficionado";
     }
     61%, 80%{
-        content:"I'm A Math Enthusiast";
+        content:" I'm A Math Enthusiast";
     }
     81%, 100%{
-        content:"I'm A Funny & Chill Guy";
+        content:" I'm A Funny & Chill Guy";
     }
 }
 
